@@ -46,4 +46,6 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 5. Responsive styling for Portfolio page
 
+6. fixed a few responsive errors on Portfolio page.
+
 Thank you, Vanessa Bloom <(^.^)>
