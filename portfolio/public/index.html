@@ -11,21 +11,27 @@
 		/>
 		<link rel="stylesheet" href="styles.css" />
 		<link href="../dist/output.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Vanessa Bloom Portfolio</title>
 	</head>
 	<body class="bg-orange-50">
 		<nav
-			class="w-full text-lg p-10 bg-orange-700 flex-wrap inline-flex text-amber-600 font-bold"
+			class="flex flex-col w-full p-10 text-lg font-bold bg-orange-700 place-items-center text-amber-600"
 		>
-			<div class="bg-amber-600 h-16 w-16 rounded-full">
+			<div class="w-16 h-16 rounded-full bg-amber-600">
 				<img
-					class="m-2 h-12 w-auto inline-flex rounded-full"
+					class="inline-flex w-auto h-12 m-2 rounded-full"
 					src="../../assets/profilepic.jpg"
 					alt="Vanessa smiling"
 				/>
 			</div>
-			<h1 class="text-3xl">Vanessa Bloom</h1>
-			<ul class="w-full px-4 flex flex-col center place-items-center">
+			<h1 class="py-3 text-3xl">Vanessa Bloom</h1>
+			<ul class="flex flex-col w-full px-4 place-items-center">
 				<li class="px-3">About Me</li>
 				<li class="px-3">Portfolio</li>
 				<li class="px-3">Contact me</li>
@@ -34,13 +40,8 @@
 		</nav>
 		<!-- About Me-->
 		<main class="m-12">
-			<h2 class="text-2xl">About Me</h2>
-			<div class="bg-amber-600 h-16 w-16 rounded-full">
-				<img
-					class="m-2 h-12 w-auto inline-flex rounded-full"
-					src="../../assets/profilepic.jpg"
-					alt="Vanessa smiling"
-				/>
+			<div class="flex flex-col justify-center">
+				<h2 class="py-5 text-2xl text-center">About Me</h2>
 			</div>
 			<p
 				>Hi! I am a full stack web developer with strong organization and
@@ -50,6 +51,7 @@
 				solutions. As a fast paced learner I am excited to bring my skills to an
 				enriching, progressive team environment to improve quality web
 				applications. <br />
+				<br />
 				Let's get in touch!
 			</p>
 		</main>
@@ -115,5 +117,14 @@
 			<p>Email address:<input type="email" /></p>
 			<p>Message:<input type="textarea" rows="4" cols="50" /></p>
 		</form> -->
+		<footer
+			class="flex flex-col w-full p-10 text-lg font-bold bg-orange-700 place-items-center text-amber-600"
+		>
+			<ul>
+				<li>Github</li>
+				<li>linked In</li>
+				<li>another</li>
+			</ul>
+		</footer>
 	</body>
 </html>

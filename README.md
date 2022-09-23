@@ -38,6 +38,8 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 1. Write my planning notes, folder setup, and create readme.md
 
-2.
+2. Started on vanilla HTML and CSS using Tailwind.
+
+3. Created mobile about me, commit to test on my mobile.
 
 Thank you, Vanessa Bloom <(^.^)>
