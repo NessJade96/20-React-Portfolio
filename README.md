@@ -44,4 +44,6 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 4. All responsive styling for About Me page done
 
+5. Responsive styling for Portfolio page
+
 Thank you, Vanessa Bloom <(^.^)>
