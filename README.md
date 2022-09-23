@@ -42,4 +42,6 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 3. Created mobile about me, commit to test on my mobile.
 
+4. All responsive styling for About Me page done
+
 Thank you, Vanessa Bloom <(^.^)>

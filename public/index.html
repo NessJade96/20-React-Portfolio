@@ -19,19 +19,21 @@
 		/>
 		<title>Vanessa Bloom Portfolio</title>
 	</head>
-	<body class="bg-orange-50">
+	<body class="bg-orange-50 xl:text-2xl">
 		<nav
-			class="flex flex-col w-full p-10 text-lg font-bold bg-orange-700 place-items-center text-amber-600"
+			class="flex flex-col w-full p-10 text-lg font-bold bg-orange-700 md:flex-row place-items-center text-amber-600"
 		>
-			<div class="w-16 h-16 rounded-full bg-amber-600">
+			<div class="w-16 h-16 rounded-full bg-amber-600 md:w-24 md:h-24">
 				<img
-					class="inline-flex w-auto h-12 m-2 rounded-full"
+					class="inline-flex w-auto h-12 m-2 rounded-full md:max-w-none md:w-20 md:h-20"
 					src="../../assets/profilepic.jpg"
 					alt="Vanessa smiling"
 				/>
 			</div>
-			<h1 class="py-3 text-3xl">Vanessa Bloom</h1>
-			<ul class="flex flex-col w-full px-4 place-items-center">
+			<h1 class="py-3 text-3xl md:px-10 xl:text-4xl">Vanessa Bloom</h1>
+			<ul
+				class="flex flex-col w-full px-4 xl:text-xl place-items-center md:flex-row md:justify-end"
+			>
 				<li class="px-3">About Me</li>
 				<li class="px-3">Portfolio</li>
 				<li class="px-3">Contact me</li>
@@ -41,7 +43,7 @@
 		<!-- About Me-->
 		<main class="m-12">
 			<div class="flex flex-col justify-center">
-				<h2 class="py-5 text-2xl text-center">About Me</h2>
+				<h2 class="py-5 text-2xl text-center xl:text-3xl">About Me</h2>
 			</div>
 			<p
 				>Hi! I am a full stack web developer with strong organization and
@@ -118,12 +120,12 @@
 			<p>Message:<input type="textarea" rows="4" cols="50" /></p>
 		</form> -->
 		<footer
-			class="flex flex-col w-full p-10 text-lg font-bold bg-orange-700 place-items-center text-amber-600"
+			class="flex flex-col w-full p-10 text-lg font-bold bg-orange-700 md:fixed md:bottom-0 place-items-center text-amber-600"
 		>
-			<ul>
-				<li>Github</li>
-				<li>linked In</li>
-				<li>another</li>
+			<ul class="md:flex-row md:flex">
+				<li class="md:px-4">Github</li>
+				<li class="md:px-4">linked In</li>
+				<li class="md:px-4">another</li>
 			</ul>
 		</footer>
 	</body>
