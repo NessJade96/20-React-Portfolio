@@ -49,3 +49,12 @@ SO THAT I can assess whether they're a good candidate for an open position
 6. fixed a few responsive errors on Portfolio page.
 
 Thank you, Vanessa Bloom <(^.^)>
+
+    		<!-- <p class="hover:absolute hover:bottom-3 hover:left-3"
+    					>A real-world full-stack application made from scratch, in a
+    					collaborative group. Pawfect Match is an application where a user
+    					can post their pet for adoption for other users to interact with.
+    					This application used HTML, CSS, Bootstrap, Javascript, Node.js,
+    					Express.js, Handlebars, mySQL, Sequelize, , Bcrypt,
+    					Express-serssion, Nodemailer, and Heroku.
+    				</p> -->
