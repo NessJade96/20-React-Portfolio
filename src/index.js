@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// imports the css styling from tailwind
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

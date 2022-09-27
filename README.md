@@ -31,8 +31,11 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 1. Go through the criteria
 
-- Create wireframe concept of mobile, tablet, and desktop.
-- Setup React, src code etc. Client and Server
+- Research styling theme and have a concept idea for mobile, tablet, and desktop.
+- Plain HTML and CSS styling created before transferring to React app.
+- Setup React, src code etc. Client and Server.
+- Move the plain html into react components so they conditionally render.
+- Finalise app and deploy.
 
 ## Commit notes:
 
@@ -51,5 +54,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 7. Finished the responsive CSS styling and HTML content. Next I will move onto turning this into React.
 
 8. Today I got the gitLab criteria so I was able to create react app and ensure I had all the correct versions in my package.json. Set up React components and pages, and rendered the plain html to the page in React.
+
+9. SGot the css displaying by changing react app version to 5.0.1 from 4.0.1 in the package.json. Set up React pages to conditionally render depending on what nav bar link is selected and imported tailwind styling.
 
 Thank you, Vanessa Bloom <(^.^)>
