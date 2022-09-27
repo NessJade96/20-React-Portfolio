@@ -48,13 +48,8 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 6. fixed a few responsive errors on Portfolio page.
 
-Thank you, Vanessa Bloom <(^.^)>
+7. Finished the responsive CSS styling and HTML content. Next I will move onto turning this into React.
 
-    		<!-- <p class="hover:absolute hover:bottom-3 hover:left-3"
-    					>A real-world full-stack application made from scratch, in a
-    					collaborative group. Pawfect Match is an application where a user
-    					can post their pet for adoption for other users to interact with.
-    					This application used HTML, CSS, Bootstrap, Javascript, Node.js,
-    					Express.js, Handlebars, mySQL, Sequelize, , Bcrypt,
-    					Express-serssion, Nodemailer, and Heroku.
-    				</p> -->
+8. Today I got the gitLab criteria so I was able to create react app and ensure I had all the correct versions in my package.json. Set up React components and pages, and rendered the plain html to the page in React.
+
+Thank you, Vanessa Bloom <(^.^)>
