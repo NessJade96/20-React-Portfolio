@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
+import profilePic from '../assets/profilepic.jpg';
 
 export default function Header({currentPage, handlePageChange}) {
 	return (
@@ -8,7 +9,7 @@ export default function Header({currentPage, handlePageChange}) {
 				<div class="w-16 h-16 rounded-full bg-amber-500 md:w-24 md:h-24">
 					<img
 						class="inline-flex object-fill w-auto h-12 m-2 rounded-full md:max-w-none md:w-20 md:h-20"
-						src="../../assets/profilepic.jpg"
+						src={profilePic}
 						alt="Vanessa smiling"
 					/>
 				</div>

@@ -1,14 +1,15 @@
 import React from 'react';
+import profilePic from '../../assets/profilepic.jpg';
 
 export default function About() {
 	return (
 		<main class="p-5 m-12 ml-auto mr-auto 2xl:max-w-7xl md:p-10 xl:p-20">
 			<div class="flex flex-col place-items-center ">
 				<h2 class="py-5 text-2xl text-center xl:text-3xl">About Me</h2>
-				<div class="w-16 h-16 rounded-full bg-amber-500 md:w-24 md:h-24">
+				<div class="mb-5 w-16 h-16 rounded-full bg-amber-500 md:w-24 md:h-24">
 					<img
 						class="inline-flex justify-center object-fill w-auto h-12 m-2 rounded-full md:max-w-none md:w-20 md:h-20"
-						src="../../assets/profilepic.jpg"
+						src={profilePic}
 						alt="Vanessa smiling"
 					/>
 				</div>

@@ -4,7 +4,7 @@
 
 Being a web developer means being part of a community. I need a place to share my projects not only if I'm applying for jobs or working as a freelancer but also so that I can share my work with fellow developers and collaborate on future projects. Now that I've completed multiple projects, I am to create a portfolio, using my new React skills to help be set apart from other developers whose portfolios don’t use the latest technologies.
 
-## User Setup: // need to udpate!
+## User Setup:
 
 To use this at home, in your terminal run the following commands to invoke the application:
 `npm i` to install packages,
@@ -56,5 +56,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 8. Today I got the gitLab criteria so I was able to create react app and ensure I had all the correct versions in my package.json. Set up React components and pages, and rendered the plain html to the page in React.
 
 9. SGot the css displaying by changing react app version to 5.0.1 from 4.0.1 in the package.json. Set up React pages to conditionally render depending on what nav bar link is selected and imported tailwind styling.
+
+10.
 
 Thank you, Vanessa Bloom <(^.^)>
