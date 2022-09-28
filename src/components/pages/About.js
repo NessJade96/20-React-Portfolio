@@ -1,5 +1,7 @@
 import React from 'react';
 import profilePic from '../../assets/profilepic.jpg';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
 
 export default function About() {
 	return (
@@ -24,8 +26,11 @@ export default function About() {
 				applications. <br />
 				<br />
 				Let's get in touch! <br />
-				<a href="mailto: ness.jade@outlook.com">
-					<i class="fa fa-envelope" aria-hidden="true"></i> Send Email
+				<a
+					class="px-3 my-1 hover:bg-amber-600 rounded hover:text-orange-50"
+					href="mailto: ness.jade@outlook.com"
+				>
+					<FontAwesomeIcon icon={faEnvelope} /> Send Email
 				</a>
 			</p>
 		</main>

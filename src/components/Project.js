@@ -68,17 +68,19 @@ export default function Project() {
 			{projects.map((project) => (
 				<article class="py-3" key={project.id}>
 					<div class="flex flex-col items-center ">
-						<div class="justify-center w-4/5 border-2 aspect-video border-amber-600">
-							<img
-								src={project.src}
-								alt={project.alt}
-								class="object-fill hover:opacity-40 "
-							/>
+						<div class="justify-center w-4/5 border-2 aspect-video border-amber-600 ">
+							<a target="_blank" href={project.hrefDeploy} rel="noreferrer">
+								<img
+									src={project.src}
+									alt={project.alt}
+									class="object-fill hover:opacity-40 "
+								/>
+							</a>
 						</div>
 						<div class="flex px-3">
 							<a
 								target="_blank"
-								class="px-3"
+								class="px-3 my-1 hover:bg-amber-600 rounded hover:text-orange-50"
 								href={project.hrefDeploy}
 								rel="noreferrer"
 							>
@@ -86,7 +88,7 @@ export default function Project() {
 							</a>
 							<a
 								target="_blank"
-								class="px-3"
+								class="px-3 my-1 hover:bg-amber-600 rounded hover:text-orange-50"
 								href={project.hrefGithub}
 								rel="noreferrer"
 							>
