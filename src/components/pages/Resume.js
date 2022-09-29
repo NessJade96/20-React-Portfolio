@@ -9,7 +9,7 @@ export default function Resume() {
 					Download my
 					<a
 						class="px-2 my-1 hover:bg-amber-600 rounded hover:text-orange-50"
-						href="../assets/resume.pdf"
+						href="./resume.pdf"
 						download="Vanessa_Bloom_Resume"
 					>
 						resume
