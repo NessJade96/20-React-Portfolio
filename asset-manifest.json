@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/20-React-Portfolio/static/css/main.f7530c1d.css",
+    "main.js": "/20-React-Portfolio/static/js/main.ebc403cb.js",
+    "static/js/377.2bf5b29e.chunk.js": "/20-React-Portfolio/static/js/377.2bf5b29e.chunk.js",
+    "static/media/Project-2-pawfectmatch.png": "/20-React-Portfolio/static/media/Project-2-pawfectmatch.6ebe0255290541819e25.png",
+    "static/media/MVC-TechyBlog.jpg": "/20-React-Portfolio/static/media/MVC-TechyBlog.893ce4e6f28445c1c372.jpg",
+    "static/media/cheapdate.jpg": "/20-React-Portfolio/static/media/cheapdate.54eb76e66e86d12b1ee9.jpg",
+    "static/media/API-weather.png": "/20-React-Portfolio/static/media/API-weather.a0de5d1aa3f1fc621140.png",
+    "static/media/Express-Notetaker.png": "/20-React-Portfolio/static/media/Express-Notetaker.c13374ce3efa71642082.png",
+    "static/media/PWA-JATE.PNG": "/20-React-Portfolio/static/media/PWA-JATE.d887da8a1930133a6eeb.PNG",
+    "static/media/profilepic.jpg": "/20-React-Portfolio/static/media/profilepic.054fbf9b36f07a171bc1.jpg",
+    "index.html": "/20-React-Portfolio/index.html",
+    "main.f7530c1d.css.map": "/20-React-Portfolio/static/css/main.f7530c1d.css.map",
+    "main.ebc403cb.js.map": "/20-React-Portfolio/static/js/main.ebc403cb.js.map",
+    "377.2bf5b29e.chunk.js.map": "/20-React-Portfolio/static/js/377.2bf5b29e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7530c1d.css",
+    "static/js/main.ebc403cb.js"
+  ]
+}
