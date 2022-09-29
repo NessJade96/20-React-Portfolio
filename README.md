@@ -20,12 +20,12 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Screenshots:
 
-![image](./assets/)
+![image](./src/assets/portfolio.PNG)
 
 ## Links:
 
-- GitHub: https://github.com/NessJade96/20-React-Portfolio
-- Heroku:
+- GitHub repo: https://github.com/NessJade96/20-React-Portfolio
+- Deploy: https://nessjade96.github.io/20-React-Portfolio/
 
 ## planning notes:
 
@@ -55,7 +55,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 8. Today I got the gitLab criteria so I was able to create react app and ensure I had all the correct versions in my package.json. Set up React components and pages, and rendered the plain html to the page in React.
 
-9. SGot the css displaying by changing react app version to 5.0.1 from 4.0.1 in the package.json. Set up React pages to conditionally render depending on what nav bar link is selected and imported tailwind styling.
+9. I Got the css displaying by changing react app version to 5.0.1 from 4.0.1 in the package.json. Set up React pages to conditionally render depending on what nav bar link is selected and imported tailwind styling.
 
 10. Moved assets into src folder, changed the fa-links and my profile img links to render with React.
 
