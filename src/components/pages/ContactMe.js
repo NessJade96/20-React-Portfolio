@@ -78,6 +78,7 @@ export default function ContactMe() {
 						required
 						value={name}
 						onChange={handleInputChange}
+						onBlur={handleFormSubmit}
 						class="block border-2 border-amber-600"
 						type="text"
 					/>
@@ -89,6 +90,7 @@ export default function ContactMe() {
 						name="email"
 						value={email}
 						onChange={handleInputChange}
+						onBlur={handleFormSubmit}
 						class="block border-2 border-amber-600"
 						type="email"
 					/>
@@ -100,6 +102,7 @@ export default function ContactMe() {
 						name="message"
 						value={message}
 						onChange={handleInputChange}
+						onBlur={handleFormSubmit}
 						class="block max-w-full border-2 border-amber-600 placeholder:text-amber-500"
 						placeholder="Write your message here"
 						type="textarea"
