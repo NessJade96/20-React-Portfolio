@@ -25,9 +25,9 @@ export default function App() {
 		if (currentPage === 'ContactMe') {
 			return <ContactMe />;
 		}
-		if (currentPage === 'Resume') {
-			return <Resume />;
-		} else return null;
+		// if (currentPage === 'Resume') {
+		// 	return <Resume />;
+		// } else return null;
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);

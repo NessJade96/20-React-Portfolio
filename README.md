@@ -63,4 +63,12 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 12. Added the form validation on the Contact Me form and to highlight the navigation text when active on that page.
 
+13. Reshape Porfolio page: include Collab or Solo buttons to filter the projects, then have a description and more clear links to github etc.
+    Project descriptions include:
+
+- 1. The problem that your application solves. Does your app tell the weather? Does it make it easier to get dressed in the morning? Is it a dating app for poodles?
+- 2. The technologies you used to build it.
+- 3. Your role on the project. Was this a group project? An individual project? Did you primarily work on the front end? Were your responsibilities full stack?
+- 4. Clear calls-to-action showing the reader where they can see the GitHub repo and deployed application.
+
 Thank you, Vanessa Bloom <(^.^)>
