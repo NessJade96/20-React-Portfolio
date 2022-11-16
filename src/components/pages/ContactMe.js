@@ -1,6 +1,7 @@
 import {React, useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 // imports a helper function that will check if the email is valid
 import {validateEmail} from '../../utils/helpers';
 
@@ -57,71 +58,53 @@ export default function ContactMe() {
 	};
 
 	return (
-		<main class="ml-auto mr-auto 2xl:max-w-7xl ">
-			<h2 class="py-5 text-2xl text-center xl:text-3xl">
-				Contact Me
-				<a
-					class="hover:bg-orange-100 rounded px-5"
-					href="mailto: ness.jade@outlook.com"
-				>
-					<FontAwesomeIcon icon={faEnvelope} />
-				</a>
-			</h2>
-			<form
-				action=""
-				class="p-5 mx-5 mt-10 mb-20 border-2 md:m-10 xl:m-20 border-amber-600"
-			>
-				<p class="p-3 ">
-					Name:
-					<input
-						name="name"
-						required
-						value={name}
-						onChange={handleInputChange}
-						onBlur={handleFormSubmit}
-						class="block border-2 border-amber-600"
-						type="text"
-					/>
+		<main class="ml-auto mr-auto lg:max-w-5xl items-center">
+			<h2 class="py-5 my-10 text-2xl text-center xl:text-3xl">Get in touch!</h2>
+			<div class="p-5 mx-5 mt-20 mb-20 border-2  border-amber-600">
+				<p class="py-3">
+					Thank you for taking the time to browse my portfolio, let's connect!
 				</p>
-				<p class="p-3">
-					Email address:
-					<input
-						required
-						name="email"
-						value={email}
-						onChange={handleInputChange}
-						onBlur={handleFormSubmit}
-						class="block border-2 border-amber-600"
-						type="email"
-					/>
+				<ul class="flex-row flex">
+					<li>
+						{' '}
+						<a
+							class="hover:text-orange-400 rounded px-2"
+							href="mailto: ness.jade@outlook.com"
+						>
+							<FontAwesomeIcon icon={faEnvelope} />
+						</a>
+					</li>
+					<li class="px-4 hover:text-black">
+						<a
+							target="_blank"
+							href="https://github.com/NessJade96"
+							rel="noreferrer"
+						>
+							<FontAwesomeIcon icon={faGithub} />
+						</a>
+					</li>
+					<li class="px-4 hover:text-blue-800">
+						<a
+							href="https://www.linkedin.com/in/vanessa-bloom/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<FontAwesomeIcon icon={faLinkedin} />
+						</a>
+					</li>
+				</ul>
+				<p class="py-3">
+					Take a look at my
+					<a
+						class="px-1 text-orange-500 hover:text-amber-500"
+						href="./resume.pdf"
+						download="Vanessa_Bloom_Resume"
+					>
+						resume
+					</a>
 				</p>
-				<p class="p-3">
-					Message:
-					<textarea
-						required
-						name="message"
-						value={message}
-						onChange={handleInputChange}
-						onBlur={handleFormSubmit}
-						class="block max-w-full border-2 border-amber-600 placeholder:text-amber-500"
-						placeholder="Write your message here"
-						type="textarea"
-						rows="4"
-						cols="50"
-					></textarea>
-				</p>
-				{errorMessage && (
-					<div>
-						<p className="px-3 error-text">{errorMessage}</p>
-					</div>
-				)}
-				<input
-					class="m-3 py-2 hover:bg-orange-100 px-4 rounded text-lg font-bold border-2 border-amber-600"
-					type="submit"
-					value="Submit"
-					onClick={handleFormSubmit}
-				/>
-			</form>
+			</div>
+			<div class="py-20"></div>
 		</main>
 	);
 }

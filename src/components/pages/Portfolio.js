@@ -5,7 +5,7 @@ export default function Portfolio() {
 	const [filter, setFilter] = useState('all');
 
 	return (
-		<main class="my-12 ml-auto mr-auto 2xl:max-w-7xl">
+		<main class="my-12 ml-auto mr-auto lg:max-w-7xl">
 			<h2 class="mx-10 text-4xl md:text-6xl  ">Portfolio</h2>
 			<div class="flex flex-col mx-8 md:flex-row">
 				<button

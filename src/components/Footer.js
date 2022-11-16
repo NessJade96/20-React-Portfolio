@@ -1,8 +1,4 @@
 import React from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-
-// const github = <FontAwesomeIcon icon={faCoffee} />;
 
 export default function Footer() {
 	return (
@@ -14,17 +10,15 @@ export default function Footer() {
 						href="https://github.com/NessJade96"
 						rel="noreferrer"
 					>
-						{/* <FontAwesomeIcon icon={faGithub} /> */}
 						Github
 					</a>
 				</li>
 				<li class="md:px-4 hover:text-orange-100">
 					<a
-						href="https://www.linkedin.com/in/vanessa-bloom-8411b0238/"
+						href="https://www.linkedin.com/in/vanessa-bloom/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						{/* <FontAwesomeIcon icon={faLinkedin} /> */}
 						LinkedIn
 					</a>
 				</li>
