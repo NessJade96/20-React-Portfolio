@@ -33,9 +33,9 @@ export default function About() {
 					Handlebars.js, Computer science for JavaScript, nodeMailer, NoSQL,
 					MongoDB, Mongoose, Progressive Web Applications, Webpack, React, MERN,
 					and Extensive knowledge in Visual Studio Code
-					<button class="my-5 block border-2 border-amber-600 bg-amber-300 px-3 hover:bg-amber-600 rounded hover:text-orange-50">
+					{/* <button class="my-5 block border-2 border-amber-600 bg-amber-300 px-3 hover:bg-amber-600 rounded hover:text-orange-50">
 						<a href="/Portfolio">View Projects </a>
-					</button>
+					</button> */}
 				</p>
 				{/* Let's get in touch! <br />
 				<a

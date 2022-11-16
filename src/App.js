@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import About from './components/pages/About';
 import ContactMe from './components/pages/ContactMe';
 import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
 
 export default function App() {
 	const [currentPage, setCurrentPage] = useState('About');
@@ -25,9 +24,6 @@ export default function App() {
 		if (currentPage === 'ContactMe') {
 			return <ContactMe />;
 		}
-		// if (currentPage === 'Resume') {
-		// 	return <Resume />;
-		// } else return null;
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);

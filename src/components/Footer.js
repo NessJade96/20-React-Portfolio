@@ -14,7 +14,8 @@ export default function Footer() {
 						href="https://github.com/NessJade96"
 						rel="noreferrer"
 					>
-						<FontAwesomeIcon icon={faGithub} />
+						{/* <FontAwesomeIcon icon={faGithub} /> */}
+						Github
 					</a>
 				</li>
 				<li class="md:px-4 hover:text-orange-100">
@@ -23,7 +24,8 @@ export default function Footer() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<FontAwesomeIcon icon={faLinkedin} />
+						{/* <FontAwesomeIcon icon={faLinkedin} /> */}
+						LinkedIn
 					</a>
 				</li>
 				<li class="md:px-4 hover:text-orange-100">
@@ -32,7 +34,7 @@ export default function Footer() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						linktree
+						Linktree
 					</a>
 				</li>
 			</ul>
