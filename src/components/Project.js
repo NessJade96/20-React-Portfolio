@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import listIt from '../assets/List-It.png.jpg';
 import MVCTechyBlog from '../assets/MVC-TechyBlog.jpg';
+import Booksearch from '../assets/Booksearch.PNG';
 import cheapdate from '../assets/cheapdate.jpg';
 import pawfectMatch from '../assets/Project-2-pawfectmatch.png';
 import PWAJate from '../assets/PWA-JATE.PNG';
@@ -14,7 +15,7 @@ const projects = [
 		stack: 'MERN',
 		src: listIt,
 		alt: 'List-It homepage screenshot',
-		hrefDeploy: 'https://blooming-basin-11579.herokuapp.com/',
+		hrefDeploy: 'https://web-production-dec1.up.railway.app/',
 		hrefGithub: 'https://github.com/NessJade96/List-It',
 		description:
 			'This shopping list application is a dynamic application created with Mongodb, Express, React, and Node. The user is able to create an account, and access their saved shopping lists from anywhere, users can even link their shopping lists with others! This was a solo full stack application that I created from beginning to end. The techonologies I used are: Vite for React, HTML, CSS, Styled-Components, Babel-plugin-styled-components, Apollo, GraphQL, bcrypt, express, JWT, mongoose, nodemon, react-dom, react-router-dom, and deployed on Heroku.',
@@ -26,7 +27,7 @@ const projects = [
 		stack: 'Fullstack MySQL',
 		src: pawfectMatch,
 		alt: 'Pawfect Match homepage screenshot',
-		hrefDeploy: 'https://pawfect---match.herokuapp.com/',
+		hrefDeploy: 'https://pawfect-match-production.up.railway.app/',
 		hrefGithub: 'https://github.com/NessJade96/pawfect-match',
 		description:
 			'Pawfect Match is an application where a user can post their pet for adoption. Other users can then message the owner to meet and potentially adopt the pet if it is their "perfect match". The technologies used to build this app are: HTML, CSS, Bootstrap, JS, Node, Express, Handlebars, Sequelize, and more. This was a collaborative project, I was involved with Signup, Login, functions, and CSS stlying, email notifications, and more.',
@@ -43,31 +44,44 @@ const projects = [
 		description:
 			'Cheapdate was created because we realised that the vast majority of people who enjoyed cocktails out at the bars, Would like to create them at home using this application. We allow users to seach for their favourite cocktails, and browse the numerous recipes we have to offer. Users can also favourite drinks, save ingredients, and check live prices.This app uses HTML, CSS, Bootstrap, external APIs, Javacsript, and Jquery. This was a collaborative project, and I was involved with the APIs, Javascript, and Jquery. Additionally I created the favourite/heart function.',
 	},
+	// {
+	// 	id: 4,
+	// 	group: 'solo',
+	// 	name: 'JATE',
+	// 	stack: 'PWA',
+	// 	src: PWAJate,
+	// 	alt: 'JATE homepage screenshot',
+	// 	hrefDeploy: 'https://lit-refuge-55705.herokuapp.com/',
+	// 	hrefGithub:
+	// 		'https://github.com/NessJade96/19-Text-Editor-Made-Using-Progressive-Web-Applications',
+	// 	description:
+	// 		'A text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. The technologies used are HTML, CSS, Webpack, Javascript. I was given starter code to convert this into a PWA',
+	// },
+	// {
+	// 	id: 5,
+	// 	group: 'solo',
+	// 	name: 'Techy Blog',
+	// 	stack: 'MVC',
+	// 	src: MVCTechyBlog,
+	// 	alt: 'Techy Blog homepage screenshot',
+	// 	hrefDeploy: 'https://shielded-coast-87876.herokuapp.com/',
+	// 	hrefGithub:
+	// 		'https://github.com/NessJade96/14-Model-View-Controller-MVC-Tech-Blog',
+	// 	description:
+	// 		'A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. I created this application solo from scratch using MySql, sequelize, MVC, handlebars, HTML, Tailwind, Javascript.',
+	// },
 	{
 		id: 4,
 		group: 'solo',
-		name: 'JATE',
-		stack: 'PWA',
-		src: PWAJate,
-		alt: 'JATE homepage screenshot',
-		hrefDeploy: 'https://lit-refuge-55705.herokuapp.com/',
-		hrefGithub:
-			'https://github.com/NessJade96/19-Text-Editor-Made-Using-Progressive-Web-Applications',
+		name: 'Book Search Engine',
+		stack: 'MERN',
+		src: Booksearch,
+		alt: 'Google book search screenshot',
+		hrefDeploy:
+			'https://book-search-engine-graphql-mern-production.up.railway.app/',
+		hrefGithub: 'https://github.com/NessJade96/Book-Search-Engine-GraphQL-MERN',
 		description:
-			'A text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. The technologies used are HTML, CSS, Webpack, Javascript. I was given starter code to convert this into a PWA',
-	},
-	{
-		id: 5,
-		group: 'solo',
-		name: 'Techy Blog',
-		stack: 'MVC',
-		src: MVCTechyBlog,
-		alt: 'Techy Blog homepage screenshot',
-		hrefDeploy: 'https://shielded-coast-87876.herokuapp.com/',
-		hrefGithub:
-			'https://github.com/NessJade96/14-Model-View-Controller-MVC-Tech-Blog',
-		description:
-			'A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. I created this application solo from scratch using MySql, sequelize, MVC, handlebars, HTML, Tailwind, Javascript.',
+			'Converted RESTful API into GraphQL. I was given starter code of a fully functioning Google Books API search engine built with a RESTful API, and I successfully refactored it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API.',
 	},
 ];
 
