@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.6a89f422.css",
-    "main.js": "/20-React-Portfolio/static/js/main.e8584a17.js",
+    "main.js": "/20-React-Portfolio/static/js/main.d62ee957.js",
     "static/js/377.2bf5b29e.chunk.js": "/20-React-Portfolio/static/js/377.2bf5b29e.chunk.js",
     "static/media/Project-2-pawfectmatch.png": "/20-React-Portfolio/static/media/Project-2-pawfectmatch.6ebe0255290541819e25.png",
+    "static/media/Booksearch.PNG": "/20-React-Portfolio/static/media/Booksearch.a7279be68415d6873efc.PNG",
     "static/media/MVC-TechyBlog.jpg": "/20-React-Portfolio/static/media/MVC-TechyBlog.893ce4e6f28445c1c372.jpg",
     "static/media/cheapdate.jpg": "/20-React-Portfolio/static/media/cheapdate.54eb76e66e86d12b1ee9.jpg",
     "static/media/List-It.png.jpg": "/20-React-Portfolio/static/media/List-It.png.1253c83f915101f175e9.jpg",
@@ -11,11 +12,11 @@
     "static/media/profilepic.jpg": "/20-React-Portfolio/static/media/profilepic.054fbf9b36f07a171bc1.jpg",
     "index.html": "/20-React-Portfolio/index.html",
     "main.6a89f422.css.map": "/20-React-Portfolio/static/css/main.6a89f422.css.map",
-    "main.e8584a17.js.map": "/20-React-Portfolio/static/js/main.e8584a17.js.map",
+    "main.d62ee957.js.map": "/20-React-Portfolio/static/js/main.d62ee957.js.map",
     "377.2bf5b29e.chunk.js.map": "/20-React-Portfolio/static/js/377.2bf5b29e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a89f422.css",
-    "static/js/main.e8584a17.js"
+    "static/js/main.d62ee957.js"
   ]
 }
