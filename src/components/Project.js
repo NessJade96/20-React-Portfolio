@@ -27,7 +27,7 @@ const projects = [
 		stack: 'Fullstack MySQL',
 		src: pawfectMatch,
 		alt: 'Pawfect Match homepage screenshot',
-		hrefDeploy: 'https://pawfect-match-production.up.railway.app/',
+		hrefDeploy: 'https://pawfect---match.herokuapp.com/',
 		hrefGithub: 'https://github.com/NessJade96/pawfect-match',
 		description:
 			'Pawfect Match is an application where a user can post their pet for adoption. Other users can then message the owner to meet and potentially adopt the pet if it is their "perfect match". The technologies used to build this app are: HTML, CSS, Bootstrap, JS, Node, Express, Handlebars, Sequelize, and more. This was a collaborative project, I was involved with Signup, Login, functions, and CSS stlying, email notifications, and more.',
