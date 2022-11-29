@@ -8,7 +8,7 @@ Being a web developer means being part of a community. I need a place to share m
 
 To use this at home, in your terminal run the following commands to invoke the application:
 `npm i` to install packages,
-then `npm run start` starts the live server.
+then `npm run start` starts the live server. To make changes to the live site `npm run deploy`.
 
 ## User Story
 
